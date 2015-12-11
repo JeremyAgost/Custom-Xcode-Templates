@@ -45,7 +45,7 @@
 	<key>Description</key>
 	<string>This template creates an application that will launch a hardcoded URL.</string>
 	<key>Identifier</key>
-	<string>com.GroundControl.Template.URLLauncher</string>
+	<string>com.JeremyAgost.Template.URLLauncher</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
@@ -92,7 +92,7 @@
 				<string>1,2</string>
 			</dict>
 			<key>TargetIdentifier</key>
-			<string>com.GroundControl.Template.URLLauncherTarget</string>
+			<string>com.JeremyAgost.Template.URLLauncherTarget</string>
 		</dict>
 	</array>
 </dict>
