@@ -12,11 +12,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSString * urlString = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"WebLauncherURL"];
+    NSString * urlString = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"LaunchURL"];
     
     if (!urlString.length) {
 		// Exit the app
-		NSLog(@"Launch URL is missing from bundle info");
+		NSLog(@"LaunchURL is missing from bundle info");
         exit(0);
     }
     
